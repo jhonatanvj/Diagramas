@@ -1,0 +1,8 @@
+} else if (comando.equals("QUITAR")) {
+			datos.eliminarPersona((String) vista.getPd().getLista_nombres().getSelectedItem());
+			JOptionPane.showMessageDialog(vista, "Persona eliminada con exito puede buscar");
+			vista.getPr().getEnombre2().setText("");
+			vista.getPr().getEciudad2().setText("");
+			vista.getPr().getEtel2().setText("");
+			vista.getPr().getEmail2().setText("");
+			vista.getPim().cambiarImagen("");
